@@ -1,0 +1,13 @@
+Sample utterances
+
+What's for dinner
+What's for dinner {When}
+I'm hungry
+
+Slots
+
+1. REQUIRED {When} AMAZON.DATE What day are you talking about?
+
+Fulfillment
+
+AWS Lambda function: dinner.js

@@ -1,0 +1,34 @@
+Sample utterances
+
+I'd like {Food} for dinner
+I know what I want for dinner
+Here's what I want for dinner
+I want {Food} for dinner {When}
+I want {Food} for dinner on {When}
+Let's have {Food}
+{Food} for dinner on {When}
+I know what I want for dinner {When}
+
+Slots
+
+1. REQUIRED {When} AMAZON.DATE What day are you talking about?
+2. REQUIRED {Food} FoodType What would you like?
+
+Slot types
+
+FoodTypes
+	Wraps
+	Meatballs
+	Pizza
+	Burgers and chips
+	Sausage casserole
+	Chicken and bacon things
+
+Confirmation prompt
+
+Confirm. Are you sure you want {Food} for dinner on {When}?
+Cancel. Ok. Never mind. 
+
+Fulfillment
+
+AWS Lambda function: dinner.js
