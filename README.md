@@ -28,7 +28,7 @@ Create a *service role* with a `trust relationship` to AWS Lambda. Then attach t
 
 Create an AWS Lambda function with the `Node.js 4.3` runtime and the role created in the previous step. 
 
-Copy and paste or upload the function located at `aws/lambda/dinner.js`. 
+Copy and paste or upload the function located at `aws/lambda/dinner.js`. Make sure to replace `<bucket_name>` with the name of your storage bucket. 
 
 ### AWS Lex
 
